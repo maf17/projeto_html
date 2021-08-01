@@ -9,53 +9,82 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <h1>Manuel Fuentes</h1>
-            <p>Engenheiro Eletricista & Desenvolvedor</p>        
-            <div>
-                <ul>
-                    <li>
-                        <a href="#apresentação">Apresentação</a>
-                    </li>
-                    <li>
-                        <a href="#estudos_e_objetivos">Estudos e Objetivos</a>
-                    </li>
-                    <li>
-                        <a href="#trabalhos">Trabalhos</a>
-                    </li>
-                    <li>
-                        <a href="#contatos">Contato</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <header class="cabecalho">
+        <span class="avatar">
+            <img src="/img/mf.jpg" alt="avatar" class="avatar__mini">
+        </span>
+        <nav class="barra__navegacao">
+        <ul class="menu">
+            <li class="home"><a id="ancora" href="#apresentação">Apresentação</a></li>
+            <li class="home"><a id="ancora" href="#estudos_e_objetivos">Estudos e Objetivos</a></li>
+            <li class="home"><a id="ancora" href="#experiencia">Experiência</a></li>
+            <li class="home"><a id="ancora" href="#contatos">Contato</a></li>
+        </ul>
+        </nav>
     </header>
-    <div>
-        <figure><img src="img/pexels-pixabay-355948.jpg" alt="lampada" width="480px"></figure>
-    </div>
-    <div class="apresentação">
-        <h1>Apresentação</h1>
-        <p>
-            Meu nome é <strong>Manuel Fuentes.</strong> sou muito apaxionado e dedicado pela minha familia e pelo meu trabalho,
-            gosto desenvolver tudo o que se relaciona com a criatividade, a boa comunicação, agindo de acordo com um conjunto de valores éticos e
-            orientados para uma atuação eficiente para atingir objetivos com ação, decisão, com sentido de pertença, enérgico e seguro.
-        </p>
-    </div>
-    <div class="estudos_objetivos">
-        <h1>Estudos e Objetivos</h1>
-        <p>
-            Meu objetivo é participar de equipes interdisciplinares para aquisição, recrutamento e manutenção. Realizar aconselhamento técnico, aplicação de planos de manutenção, dirigir, supervisionar e controlar o pessoal sob meu comando, 
-            projetar e executar as ações necessárias para o projeto e comissionamento de: Linhas de transmissão, Sistemas de energia, Sistemas de medição,
-            sistemas de proteção, sistemas de geração, sistemas de manufatura automatizados, Iluminação e instalações elétricas.
-        </p>
-    </div>
-    <div class="trabalhos">
-        <h1>Trabalhos</h1>
-        <ul class="lista">
+    <div class="imagem">
+        <img src="img/pexels-cottonbro-4488651.jpg" alt="Foto de cottonbro no Pexels" width="480px">
+        <span class="avatar__maior">
+            <img src="/img/mf.jpg" alt="avatar" class="avatar">
+        </span>
+        <span class="icons">
+        <ul class="redes__sociais">
             <li>
+                <a href="https://www.linkedin.com/in/manuel-fuentes-9b892637"><img class="icon__linkedin" src="img/LinkedIn.png" alt="icon linkedin" width="50px">
+                <p class="linkedin">LinkedIn</p>
+                </a>                    
+            </li>
+            <li>
+                <a href="https://github.com/maf17"><img class="icon__github" src="img/github.png" alt="icon Github" width="58px" height="58px">
+                <p class="p_github">Github</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com/manuelfuentej"><img class="icon__instagram" src="img/instagram.png" alt="icon instagram" width="58px" height="58px">
+                <p class="p_instagram">Instagram</p>
+                </a>
+            </li>
+        </ul>
+        </span>
+    </div>
+    <main class="conteudo">
+        <div class="apresentacao">
+        <h1 class="nome">Manuel Fuentes</h1>
+        <p class="subtitulo">Engenheiro Eletricista & Desenvolvedor</p>
+        <h1 class="titulo_a" id="apresentação">Olá!</h1>
+        <div class="subtitulo_a">
+            <p>
+                Meu nome é <strong>Manuel Fuentes.</strong> sou muito apaxionado e dedicado pela minha familia e pelo meu trabalho,
+                gosto desenvolver tudo o que se relaciona com a criatividade, a boa comunicação, agindo de acordo com um conjunto de valores éticos e
+                orientados para uma atuação eficiente para atingir objetivos com ação, decisão, com sentido de pertença, enérgico e seguro.
+            </p>
+        </div>
+        </div>        
+    </main>
+    <div class="estudos_objetivos" id="estudos_e_objetivos">
+        <h1 class="titulo__b">Formação</h1>      
+        <div class="formacao">
+            <p class="data">2005-2011</p>
+            <h1 class="especialidade">Engenheiro Eletricista</h1>
+            <p class="faculdade">Universidad Experimental de la Fuerza Armada Nacional (ccs-ven)</p>
+        </div>
+        <div class="box_objetivo">
+        <p class="objetivo">
+            "Meu objetivo é participar de equipes interdisciplinares para aquisição, recrutamento e manutenção. Realizar aconselhamento técnico, aplicação de planos de manutenção, dirigir, supervisionar e controlar o pessoal sob meu comando, 
+            projetar e executar as ações necessárias para o projeto e comissionamento de: Linhas de transmissão, Sistemas de energia, Sistemas de medição,
+            sistemas de proteção, sistemas de geração, sistemas de manufatura automatizados, Iluminação e instalações elétricas.""
+        </p>
+        </div>
+    </div>
+    <div class="experiencia" id="experiencia">
+        <h1 class="titulo_c">Experiência</h1>
+        
+        <ul class="lista">
+            <div class="vinheta_1">
+            <li class="exp_1">
+                <p class="data_exp_1">2020-Atual</p>
                 <h3>Encarregado de manutenção elétrica e mestre (construção civil), Ágora Engenharia Ltda.</h3>
-                <p>Responsável por supervisionar tarefas de caráter técnico sobre o projeto,
+                <p class="text_exp_1">Responsável por supervisionar tarefas de caráter técnico sobre o projeto,
                     produção e aperfeiçoamento de instalações elétricas, atuar no setor de
                     manutenção elétrica, automação e eletrônica, executando a manutenção
                     preventiva e corretiva, verificando o bom funcionamento das máquinas e
@@ -68,9 +97,12 @@
                     geral.
                 </p>
             </li>
-            <li>
+            </div>
+            <div class="vinheta_2">
+            <li class="exp_1">
+                <p class="data_exp_1">2019-2020</p>
                 <h3>Auxiliar de escritorio em geral, <a href="https://www.ismalimentacao.com.br/" target="_blank">Ism Gomes de Mattos Eireli</a></h3>
-                <p>Agendamento de reuniões entre funcionários e encontros com clientes,
+                <p class="text_exp_1">Agendamento de reuniões entre funcionários e encontros com clientes,
                     atendimento presencial a pessoas físicas e jurídicas; auxiliar equipe de
                     Recursos Humanos durante os processos; contato com o almoxarifado
                     para solicitação de materiais, elaboração do orçamento junto à equipe
@@ -79,9 +111,12 @@
                     apresentações para reuniões.
                 </p>
             </li>
-            <li>
+            </div>
+            <div class="vinheta_3">
+            <li class="exp_1">
+                <p class="data_exp_1">2017-2019</p>
                 <h3>Supervisor de operações e inspector de qualidade I, <a href="http://kayson-ve.com/" target="_blank">Kayson co. Venezuela s.a</a></h3>
-                <p>Supervisor na área de Operações e Inspetor de Qualidade I da empresa
+                <p class="text_exp_1">Supervisor na área de Operações e Inspetor de Qualidade I da empresa
                     Kayson Inc. na obra habitacional Aves de Yucatan, localizadas no setor de
                     Yucatan km 14 via Duaca, Barquisimeto. Inspeção e execução de instalações
                     elétricas em geral, dutos, fiação. Gerar, cadastrar no Excel e manter os
@@ -89,24 +124,100 @@
                     empreiteiros.
                 </p>
             </li>
+            </div>
         </ul>
     </div>
-    <footer>
-        <ul class="contato">
+    <div class="projetos">
+        <h1 class="titulo__projetos">Projetos</h1>
+        <div class="container">
+        <div class="card">
+            <a href="https://gist.github.com/maf17/431197f94058cf5074e0a4a1219140a1">
+              <img src="https://s2.glbimg.com/wFnnogxKgC7yGPUJjJFfo9W6HyI=/0x0:1280x923/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2020/u/A/MXu3TxQzARBzm1dmUBIQ/salada-caesar.jpeg" alt="Foto Salada Caesar" class="card__imagem">
+              <div class="card__info">
+                <span class="card__titulo">Estilização em CSS</span>
+                <span class="card__texto">Trata-se de uma estilização em css de um documento index.html de uma receita, Curso da Toti</span>
+                <button class="repositorio">Repositorio</button>
+             </div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="https://github.com/maf17/Formulario/blob/main/formulario_html.html">
+              <img src="img/formulario.jpg" alt="Formulario html" class="card__imagem">
+              <div class="card__info">
+                <span class="card__titulo">Formulario</span>
+                <span class="card__texto">Trata-se de um formulário realizado numa aula ao vivo da @toti-br o dia 07/07/2021</span>
+                <button class="repositorio">Repositorio</button>
+             </div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="">
+                <img src="https://s2.glbimg.com/6RUrauy7fUVpX-54u0FiWWWUWho=/0x0:2000x1066/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/J/B/Jj8vQvTgW0ALIPMoWmXw/hcamp.jpg" alt="Foto Salada Caesar" class="card__imagem">
+                <div class="card__info">
+                <span class="card__titulo">Hospital de Campanha</span>
+                <span class="card__texto">Adequação do sistema elétrico para o hospital de campanha em Boa Vista-RR</span>
+                <button class="repositorio">Repositorio</button>
+             </div>
+            </a>
+          </div>          
+        </div>
+    </div>
+    <footer class="rodape" >
+        <div class="container__contatos">
             <h1>Contato</h1>
-            <li>
-                <span>Manuel Fuentes</span>
-                <span>
-                    <a href="mailto:manuelfuentesj@gmail.com">manuelfuentesj@gmail.com</a>
-                </span>
-            </li>
-            <li>
-                <span>GitHub</span>
-                <span>
-                    <a href="https://github.com/maf17">github.com/maf17</a>
-                </span>
-            </li>        
+            <p>Quer entrar em contato comigo?</p> 
+            <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+            <p> Você também pode me encontrar nas seguintes redes sociais:</p>
+            <ul class="redes__sociais">
+                <li>
+                    <a href="https://www.linkedin.com/in/manuel-fuentes-9b892637"><img class="icon__linkedin" src="img/LinkedIn.png" alt="icon linkedin" width="50px">
+                    <p class="linkedin">LinkedIn</p>
+                    </a>                    
+                </li>
+                <li>
+                    <a href="https://github.com/maf17"><img class="icon__github" src="img/github.png" alt="icon Github" width="58px" height="58px">
+                    <p class="p_github">Github</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/manuelfuentej"><img class="icon__instagram" src="img/instagram.png" alt="icon instagram" width="58px" height="58px">
+                    <p class="p_instagram">Instagram</p>
+                    </a>
+                </li>
         </ul>
+        </div>
+        <div class="formulario">
+            <form action="" method="POST"> 
+                <input type="hidden" name="recipient" value="testeiseuemail@gmail.com"> <!-- Pode ser qualquer endereço de email -->
+                <input type="hidden" name="redirect" value="http://github.com/maf17"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+                <input type="hidden" name="subject" value="teste de assunto">  <!-- Assunto da mensagem -->
+                <input type="hidden" name="email" value="manuelfuentesj@gmail.com">   <!-- Deve ser uma conta de email ativa em seu domínio -->
+                
+                <p> 
+                Nome:<br /> 
+                <input type="text" size="30" name="nome"> 
+                </p>   
+                
+                <p>
+                E-mail:<br /> 
+                <input type="text" size="30" name="replyto" placeholder="user@example.com"> 
+                </p>   
+                
+                <p> 
+                Assunto:<br /> 
+                <input type="text" size="35" name="Assunto"> 
+                </p>
+                
+                <p> 
+                    Messagem:<br /> 
+                    <input class="messagem" type="text" size="35" name="Messagem"> 
+                    </p>
+                
+                <p>
+                <input class="enviar" type="submit" name="BTEnvia" value="Enviar"> 
+                <input class="apagar" type="reset" name="BTApaga" value="Apagar"> </p> 
+                </form>
+        </div>
     </footer>
 </body>
 
