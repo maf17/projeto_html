@@ -452,9 +452,8 @@ img {
 
 .icon__linkedin,
 .icon__github,
-.icon__instagram {
-    filter: ;
-    
+.icon__instagram {  
+    filter: none;  
 }
 
 .formulario {
