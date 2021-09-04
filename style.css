@@ -487,11 +487,11 @@ p .enviar, .apagar {
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (min-width: 780px) and (max-width:1024){
     .cabecalho,
     .imagem,
     .conteudo
      {
-        max-width: 100%;
+        max-width: 50%;
     }    
 }
